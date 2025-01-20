@@ -29,7 +29,7 @@ surge_applied = st.selectbox("Surge Applied", ["Yes", "No"])
 # Load Trained Model
 @st.cache_resource
 def load_model():
-    with open(r"D:\Files_of_data_science\my_portfolio_of_data_science\taxi_trip\streamlit_Prediction\Random Forest Regressor___fare_pred.pkl", "rb") as file:
+    with open(r"Random Forest Regressor___fare_pred.pkl", "rb") as file:
         model = pickle.load(file)
     return model
 
