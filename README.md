@@ -1,6 +1,6 @@
 # 🚕 Taxi Fare EDA & Prediction
 
-This project focuses on Exploratory Data Analysis (EDA) and Fare Prediction for New York City taxi rides using a real-world dataset. The goal is to uncover patterns from historical data and build a predictive model to estimate taxi fares based on key trip features.
+This project focuses on Exploratory Data Analysis (EDA) and Fare Prediction for taxi rides using a real-world dataset. The goal is to uncover patterns from historical data and build a predictive model to estimate taxi fares based on key trip features.
 
 ---
 
