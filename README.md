@@ -1,70 +1,70 @@
-# 🚕 Taxi Fare EDA & Prediction
+# 🚕 Taxi Fare Prediction
 
-This project focuses on Exploratory Data Analysis (EDA) and Fare Prediction for taxi rides using a real-world dataset. The goal is to uncover patterns from historical data and build a predictive model to estimate taxi fares based on key trip features.
+This project performs **Exploratory Data Analysis (EDA)** and builds a **fare prediction model** for taxi rides using machine learning. The goal is to predict taxi fare prices based on ride details like distance, time, and passenger count.
 
 ---
 
 ## 📌 Project Overview
 
-- Perform EDA to understand data trends, outliers, and correlations
-- Visualize relationships between fare amount, distance, passengers, and time
-- Build a regression model to predict taxi fare prices
-- Evaluate model performance using RMSE and other metrics
+- Analyzed and cleaned taxi fare dataset
+- Built a machine learning model using **regression models**
+- Evaluated model performance using **RMSE**
 
 ---
 
-## 📊 Tools & Technologies
+## 🛠️ Technologies Used
 
 - **Python**
-- **Pandas, NumPy** – Data manipulation
-- **Matplotlib, Seaborn, Plotly** – Data visualization
-- **Scikit-learn** – Model training and evaluation
-- **Jupyter Notebook**
-- **Streamlit** - for predicting
----
-
-## 📁 Dataset
-
-- Source: [Kaggle – NYC Taxi Fare Prediction](https://www.kaggle.com/datasets/shubhendra7/nyc-taxi-fare-prediction)
-- Contains details like:
-  - Pickup & dropoff coordinates
-  - Passenger count
-  - Pickup datetime
-  - Fare amount (target)
+- **NumPy, Pandas** – Data manipulation
+- **Matplotlib, Seaborn** – Data visualization
+- **Scikit-learn** – Model building & evaluation
+- **Jupyter Notebook** – Development environment
+- **Streamlit** – Webapp
+  
 
 ---
 
-## 🧠 What’s Inside
+## 📊 Key Steps
 
-- `Taxi_Fare_Pred_Model.ipynb` – Full data exploration and visualization **&** Model training and prediction
-- Feature engineering: distance calculation using Haversine formula
-- Outlier removal and data cleaning
-- Linear Regression model for fare prediction
+1. **Data Cleaning**
+   - Removed missing/null values
+   - Removed outliers (extreme fare values, coordinates)
 
----
+2. **Exploratory Data Analysis**
+   - Visualized fare vs distance, time, passenger count
+   - Checked correlations between features
 
-## 🔍 Key Insights
+4. **Model Building**
+   - Trained a models by hyperparameter tuning
+   - Split data into train and test sets
 
-- Distance is strongly correlated with fare amount
-- Time of day and day of week affect fare patterns
-- Outliers (extremely high/low fares or distances) need to be removed for better accuracy
-
-
----
-
-## 🚀 Future Improvements
-
-- Integrate external data (e.g., weather, traffic)
+5. **Evaluation**
+   - Metric used: **Root Mean Squared Error (RMSE)**
+   - Observed reasonable performance for a basic regression model
 
 ---
 
-## 📬 Contact
+## 📈 Sample Output
+
+> Predicted fare for a random input: **$11.23**  
+> RMSE on test data: **$4.21** *(example)*
+
+---
+
+## 🔮 Future Improvements
+
+- Add advanced models (Random Forest, XGBoost)
+- Deploy with Streamlit for live predictions
+
+---
+
+## 🙋‍♂️ Author
 
 **Muhammad Hasaan Hassan Khan**  
-📧 Email: hasaankhan175@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/hasaan-khan-422249289/)  
-🔗 [GitHub](https://github.com/hasaankhan175)
+📧 [hasaankhan175@gmail.com](mailto:hasaankhan175@gmail.com)  
+🔗 [GitHub](https://github.com/hasaankhan175)  
+🔗 [LinkedIn](https://www.linkedin.com/in/hasaan-khan-422249289/)
 
 ---
 
-⭐ If you found this project helpful, feel free to star the repository!
+⭐ If you found this project helpful, consider giving it a star!
